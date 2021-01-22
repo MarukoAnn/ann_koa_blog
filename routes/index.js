@@ -37,6 +37,6 @@ router.get('/getType', typeService.getTypeList)
 // 新增或者修改类型
 router.post('/editType', typeService.addTypeInfo)
 // 删除类型
-
+router.post('/delType', typeService.delTypeInfo)
 
 module.exports = router

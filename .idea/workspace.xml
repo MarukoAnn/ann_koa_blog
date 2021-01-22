@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13bc2437-cb3d-44e6-a301-7dbb134b4e98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error/error.-2021-01-22-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/handle/handle.-2021-01-22-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/response/response.-2021-01-22-19.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/response/response.-2021-01-22-20.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db_config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/log_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/log_config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error/error.-2021-01-11-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/service/admin-blog/flagService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/handle/handle.-2021-01-11-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/service/admin-blog/typeService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/response/response.-2021-01-11-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/response/response.-2021-01-22-19.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/admin-blog/typeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/service/admin-blog/typeService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +30,15 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1mvhCJqzhFiKKSV8lkig3eHb1Jd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -101,7 +102,7 @@
       <workItem from="1610778262631" duration="502000" />
       <workItem from="1611208362901" duration="360000" />
       <workItem from="1611217911913" duration="612000" />
-      <workItem from="1611299137574" duration="12361000" />
+      <workItem from="1611299137574" duration="12603000" />
     </task>
     <task id="LOCAL-00001" summary="操作日志:&#10; 1、数据库链接&#10; 2、批量添加电子书信息">
       <created>1610441311256</created>
@@ -110,14 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1610441311256</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="操作日志:&#10; 1、标签模块添加&#10; 2、类型模块添加&#10; &#10; &#10; ------------博客后台搭建----------------">
+      <created>1611316744746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611316744746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="操作日志:&#10; 1、数据库链接&#10; 2、批量添加电子书信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="操作日志:&#10; 1、数据库链接&#10; 2、批量添加电子书信息" />
+    <MESSAGE value="操作日志:&#10; 1、标签模块添加&#10; 2、类型模块添加&#10; &#10; &#10; ------------博客后台搭建----------------" />
+    <option name="LAST_COMMIT_MESSAGE" value="操作日志:&#10; 1、标签模块添加&#10; 2、类型模块添加&#10; &#10; &#10; ------------博客后台搭建----------------" />
   </component>
 </project>

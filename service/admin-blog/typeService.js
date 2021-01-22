@@ -39,7 +39,7 @@ exports.addTypeInfo = async (ctx) => {
 }
 
 exports.delTypeInfo = async (ctx) => {
-    let data = [ctx.query.id];
+    let data = [ctx.request.body.id];
     let sql = 'delete from type_info where id= ?'
 
     await db.base(sql, data).then(res =>{

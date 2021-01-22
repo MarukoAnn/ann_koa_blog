@@ -1,0 +1,50 @@
+[2021-01-22T20:00:13.106] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/delType?id=2
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"2"}
+response time: 5
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2021-01-22T20:00:27.322] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/delType?id=2
+request client ip:  ::ffff:127.0.0.1
+request query:  {"id":"2"}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2021-01-22T20:01:46.116] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/delType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":2}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2021-01-22T20:01:52.743] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/delType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":2}
+response time: 43
+response status: 200
+response body: 
+{"code":"200","message":"请求成功","data":null}
+*************** response log end ***************
+
