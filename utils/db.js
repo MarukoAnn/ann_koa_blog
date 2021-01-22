@@ -9,24 +9,23 @@ const pool = mysql.createPool({
 })
 
 exports.base = (sql, values) => {
-   return new Promise((resolve, reject)=> {
-    // 获取数据库链接   
-    pool.getConnection((err, connection) => {
-        if(err){
-            reject(err)
-        }else{
-            // 执行sql语句
-            connection.query(sql, values, (err,rows) => {
-                if(err){
-                    reject(err)
-                }else{
-                    resolve(rows)
-                }
-                // 关闭数据库
-                connection.release();
-            })
-        }
-
+    return new Promise((resolve, reject) => {
+        // 获取数据库链接
+        pool.getConnection((err, connection) => {
+            if (err) {
+                reject(err)
+            } else {
+                // 执行sql语句
+                connection.query(sql, values, (err, rows) => {
+                    if (err) {
+                        reject(err)
+                    } else {
+                        resolve(rows)
+                    }
+                    // 关闭数据库
+                    connection.release();
+                })
+            }
+        })
     })
-   })
 }

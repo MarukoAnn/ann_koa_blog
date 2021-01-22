@@ -1,0 +1,26 @@
+[2021-01-22T18:01:14.309] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/getType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2021-01-22T18:01:26.869] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/getType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+

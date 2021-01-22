@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13bc2437-cb3d-44e6-a301-7dbb134b4e98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db_config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/log_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/log_config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error/error.-2021-01-11-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/service/admin-blog/flagService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/handle/handle.-2021-01-11-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/service/admin-blog/typeService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/response/response.-2021-01-11-23.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1mvhCJqzhFiKKSV8lkig3eHb1Jd" />
   <component name="ProjectViewState">
@@ -23,19 +38,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/an_project/web_project/node_project/express_study" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prd" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prd" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -53,8 +81,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.prd" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -67,11 +96,28 @@
       <option name="presentableId" value="Default" />
       <updated>1610379842954</updated>
       <workItem from="1610379844051" duration="382000" />
-      <workItem from="1610439415038" duration="1510000" />
+      <workItem from="1610439415038" duration="1658000" />
+      <workItem from="1610758919277" duration="22000" />
+      <workItem from="1610778262631" duration="502000" />
+      <workItem from="1611208362901" duration="360000" />
+      <workItem from="1611217911913" duration="612000" />
+      <workItem from="1611299137574" duration="12361000" />
     </task>
+    <task id="LOCAL-00001" summary="操作日志:&#10; 1、数据库链接&#10; 2、批量添加电子书信息">
+      <created>1610441311256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610441311256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="操作日志:&#10; 1、数据库链接&#10; 2、批量添加电子书信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="操作日志:&#10; 1、数据库链接&#10; 2、批量添加电子书信息" />
   </component>
 </project>

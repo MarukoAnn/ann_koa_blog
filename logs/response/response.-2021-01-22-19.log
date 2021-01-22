@@ -1,0 +1,64 @@
+[2021-01-22T19:04:05.593] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /admin/getType
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 42
+response status: 200
+response body: 
+{"code":"200","message":"请求成功","data":[{"Id":1,"name":"前端","cerate_time":""}]}
+*************** response log end ***************
+
+[2021-01-22T19:33:06.100] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/editType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"java"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2021-01-22T19:54:18.532] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/editType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"java"}
+response time: 40
+response status: 200
+response body: 
+{"code":"501","message":"操作失败，数据库异常Error: ER_NO_DEFAULT_FOR_FIELD: Field 'Id' doesn't have a default value","data":null}
+*************** response log end ***************
+
+[2021-01-22T19:55:02.219] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/editType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"java"}
+response time: 46
+response status: 200
+response body: 
+{"code":"200","message":"请求成功","data":null}
+*************** response log end ***************
+
+[2021-01-22T19:56:15.519] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /admin/editType
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"id":2,"name":"SpringBoot"}
+response time: 22
+response status: 200
+response body: 
+{"code":"200","message":"请求成功","data":null}
+*************** response log end ***************
+
